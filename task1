@@ -1,0 +1,9 @@
+def factorial(n):
+    value=1
+    if n ==1 or n==0:
+        return value
+    else:
+        return factorial(n-1)*n
+num=int(input())
+ans=factorial(num)
+print(ans)
